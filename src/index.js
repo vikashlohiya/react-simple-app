@@ -1,16 +1,16 @@
-import React from 'react';
+import React,{useState ,setState} from 'react';
 import ReactDOM from 'react-dom';
 import Navbar  from "./components/Navbar";
+import Alert  from "./components/Alert";
 import Uppercase  from "./components/Uppercase";
 import reportWebVitals from './reportWebVitals';
 
-
+import Main  from "./Main";
 ReactDOM.render(
-  <React.StrictMode>
-    
-    <Navbar/>
+  
+  <React.StrictMode>  
 
-   <Uppercase/>
+    <Main/>
   </React.StrictMode>,
   document.getElementById('root')
 );

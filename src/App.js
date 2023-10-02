@@ -5,10 +5,12 @@ import {ThemeContext} from "./index"
 import {t} from "./index"
 import React,{useContext,useState ,setState} from 'react'
 import Header from './Header';
+
 export const myContext = React.createContext('light');
 
 function App(props) {
   const [count, setS] = useState({name:"vikash","roll":12});
+ 
    function setS1()
    {
     console.log(count.name);
